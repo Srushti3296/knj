@@ -1,0 +1,9 @@
+ while (temp != 0) {
+            // Extract the last digit of temp
+            int digit = temp % 10;
+            // Add the digit to reversed after shifting it left by one digit
+            reversed = reversed * 10 + digit;
+            // Remove the last digit from temp
+            temp /= 10;
+        }
+ give me the dry runn of this command 
